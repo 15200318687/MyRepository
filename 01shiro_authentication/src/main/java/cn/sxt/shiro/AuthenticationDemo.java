@@ -15,6 +15,7 @@ import org.apache.shiro.subject.Subject;
 public class AuthenticationDemo {
 	public static void main(String[] args) {
 		//1.创建SecurityManager工厂
+		//1.创建SecurityManager工厂
 		Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro.ini");
 		//2.通过SecurityManager工厂获取实例
 		SecurityManager instance = factory.getInstance();

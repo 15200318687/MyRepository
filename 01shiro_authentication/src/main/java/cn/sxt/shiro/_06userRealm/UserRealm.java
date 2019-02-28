@@ -18,7 +18,7 @@ import org.apache.shiro.util.ByteSource;
  * 自定义realm 该realm类提供了2个方法 doGetAuthorizationInfo 获取认证信息 doGetAuthenticationInfo
  * 获取权限信息
  * 
- * @author yuanjinqiao
+ * @author yuanjinqiao111
  *
  */
 public class UserRealm extends AuthorizingRealm {
